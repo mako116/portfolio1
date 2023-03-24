@@ -11,7 +11,7 @@ const BLoglistef = () => {
         <span className="light-red">Chuks Nwakwue</span>
         <span className="light-red"> React DEVELOPER</span>
          <span className="light-red">Web DESIGNER</span>
-        <span className="light-red">A Worldpress DEVELOPER</span>
+        <span className="light-red">js DEVELOPER</span>
         
     </div>
         {/* <p>{blog.cover}</p> */}
