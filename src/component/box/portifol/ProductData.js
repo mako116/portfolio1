@@ -21,7 +21,7 @@ export const ProductsData = [{
 
 },
 {
-    name: 'Betwork',
+    name: 'Betwork  building',
     detail: 'Super html',
      img: mobo,
     type: 'html',
