@@ -96,20 +96,14 @@ ul li a{
 }
 
 .contentw{
-  /* display: block; */
   width: 100%;
-  /* max-width:100%; */
-  /* height: 120vh; */
   background: linear-gradient(to top,#301D01,#301D01),url('./image/bg-dredge.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-color:;rgba(59, 35, 2, 0.74) */
-  /* #301D01  */
 }
 .blog-list{
-  /* max-width:900px; */
-   display: flex;
+    display: flex;
    padding-left: 100px;
     align-items: center;
  }
@@ -151,6 +145,10 @@ font-family: 'works',sans-serif;
  }
 .blog-preview a {
   text-decoration: none;
+}
+.gum{
+  display: flex;
+  justify-content: start;
 }
 .gum i{
   margin: 10px;
@@ -255,36 +253,39 @@ body{
   }
   .blog-preview{
     width: 100%;
-    padding: 70px 10px;
-  text-align: left;
+    display: inline-block;
+      padding: 70px 10px;
+  text-align: start;
   }
   
   .blog-preview h2{
     font-size: 43px;
     color: #e8dfec;
     margin-bottom: 11.5px;
-    margin-left: 100px;
-  }
+    text-indent: 11rem;
+   }
   .blog-preview p {
-    /* font-size: 15px; */
-    letter-spacing: 2px;
+     letter-spacing: 2px;
   color: rgb(202, 199, 199);
-   /* max-width: 97%; */
-   line-height: 1.2rem;
-  font-size: 15px;
+    line-height: 40px;
+  font-size: 21.5px;
+  font-weight: 600;
   padding-left: 35px;
   padding-right: 35px;
-  /* margin-left: 15px; */
-  text-align: center;
+   text-align: center;
   font-family: 'works',sans-serif;
    }
    .animate-text {
     width: 100%;
     display: inline-flex;
-    text-indent: 11rem;
+    text-indent: 16rem;
     position: relative;
     /* left: 370px; */
-    bottom: 76px;
+    bottom: 75px;
+  }
+  .gum {
+    display: flex;
+    justify-content: center;
   }
    .gum i{
     margin-top: 30px;
@@ -314,9 +315,11 @@ body{
     padding: 40px 10px;
   text-align: left;
   }
+ 
 }
 @media(max-width:452px) {
   .blog-preview h2{
+    text-indent: 0;
     font-size: 20px;
      margin-left: 38px;
    }
@@ -344,29 +347,29 @@ body{
  } 
 }
   @media(max-width:425px) {
+    
   .blog-preview h2{
     font-size: 30px;
     color: #e8dfec;
     margin-bottom: 5.5px;
-    margin-left: 20px;
+    margin-left: 5vh;
+  }
+  .blog-preview p {
+    letter-spacing: 1px;
+ color: rgb(202, 199, 199);
+   line-height: 1.5rem;
+ font-size: 14px;
+ padding-left: 0px;
+ padding-right: 0px;
+  text-align: center; 
   }
   .animate-text {
     width: 100%;
     display: inline-flex;
-    text-indent: 4.5rem;
-    position: relative;
-    /* left: 370px; */
+    text-indent: 6.5rem;
     bottom: 55px;
   }
-  .blog-preview p {
-     letter-spacing: 1px;
-  color: rgb(202, 199, 199);
-    line-height: 1.5rem;
-  font-size: 14px;
-  padding-left: 0px;
-  padding-right: 0px;
-   text-align: center; 
-   }
+
    .animate-text span{
     animation: anim 13s linear infinite;
     color: var(--bg-white-50)!important;
@@ -375,6 +378,9 @@ body{
     overflow: hidden;
     font-size: 25px;
     position: absolute;
+  }.gum{
+    display: flex;
+    justify-content: center;
   }
   .gum i{
     margin-top: 10px;
@@ -386,8 +392,8 @@ body{
 }
 @media(max-width:375px) {
   .blog-preview h2{
-    font-size: 20px;
-    margin-bottom: 0.5px;
+    font-size: 25px;
+    margin-bottom: 2px;
   }
   .blog-preview p {
     font-size: 12px;
@@ -396,18 +402,19 @@ body{
   
 }
   .animate-text {
-    text-indent: 3.5rem;
-    bottom: 41px;
-
+    text-indent: 5rem;
+    margin-bottom: 0px;
+    bottom: 44px;
   }
   .animate-text span{
-    animation: anim 13s linear infinite;
-    color: var(--bg-white-50)!important;
-    opacity: 0;
-    font-weight: bold;
-    overflow: hidden;
     font-size: 20px;
-    position: absolute;
+   }
+  .h-text h4{
+    font-size: 10px;
+  }
+  .gum{
+    display: flex;
+    justify-content: center;
   }
 }
 @media(max-width:320px) {

@@ -1,11 +1,13 @@
 .Banner {
-    background-image: linear-gradient(
-      125deg,
-      rgba(114, 44, 3, 0.863),
-      rgba(83, 32, 2, 0.904) 40%,
-      rgba(117, 43, 0, 0.835)
-    );
-
+  background:linear-gradient(
+        125deg,
+        rgba(114, 44, 3, 0.966),
+        rgba(83, 32, 2, 0.979) 10%,
+        rgba(117, 43, 0, 0.979)
+      ), url("../image/bg-dredge.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
     min-height: 350px;
     display: flex;
     flex-direction: column;
@@ -47,7 +49,7 @@
   .Banner .button:hover {
     background: #fff;
     color: #502004;
-    border: 2px solid #fdfdfd;
+    border: 2px solid #e07676;
     color: #502004;
   }
   
@@ -56,6 +58,7 @@
       min-height: 300px;
     }
   }
+
   @media(max-width:498px){
     .Banner h3 {
       font-size: 28px;
@@ -65,13 +68,14 @@
   }
   @media(max-width:425px){
     .Banner {
-      min-height: 200px;
+      min-height: 250px;
     }
     
     .Banner .wrapper {
 
-      width: 100%;
+      width: 90%;
       margin: auto;
+      line-height: 20px;
     }
     .Banner h5 {
       width: 100%;
@@ -89,8 +93,10 @@
     
   }
   @media(max-width:375px){
+    .Banner {
+      min-height: 250px;
+    }
     .Banner h3 {
-       
       font-size: 20px;
      }
 

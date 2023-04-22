@@ -1,28 +1,17 @@
 import React from 'react'
 import Ddata from './Cdata'
 import image from '../image/imagi.jpg'
-
+import {motion} from 'framer-motion'
 import './mainx.css'
 import cv from '../component/Chukwuebuka Emmanuel Nwakwue.pdf'
- // import { Link } from 'react-router-dom'
-// import Slider from "react-slick"
-// import "slick-carousel/slick/slick.css"
-// import "slick-carousel/slick/slick-theme.css"
-const MyPix = () => {
-    
-  // const settings = {
-  //   dots: false,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 4,
-  //   slidesToScroll: 1,
-  // }
  
+const MyPix = () => {
+ const transition = {duration:10, type:"string"}
   return (
     <div>
       {Ddata.map((data, index)=>{
         return(
-            <div className="product" key={index}>
+            <div className="product backgrounded" key={index}>
             
             <h2>About Me</h2>
 
@@ -32,7 +21,7 @@ const MyPix = () => {
                 </div>
                 
                 <div className="h-text">
-                <h4>{data.name}</h4>
+                <h4 >{data.name}</h4>
                  <p>{data.para}</p>
                 </div>
             </div>

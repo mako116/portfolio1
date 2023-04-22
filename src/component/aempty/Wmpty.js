@@ -1,13 +1,12 @@
 import React from 'react'
-
-import './aemp.css'
+ import './aemp.css'
 const Wmpty = () => {
-  return (
+   return (
     <div className="contacts">
     <div className="wrap">
         <div className="container-top">
             <i className="fa fa-info"></i>
-            <div className="text-center">
+          <div className="text-center">
                 <h6>Start Your Project Now</h6>
             </div>
             <h3 > <span className='light'> Get In Touch</span></h3>

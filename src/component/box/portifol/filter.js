@@ -1,12 +1,12 @@
 import React from 'react'
 import { useState } from 'react'
 // import pix from './image/dredgevest.png'
-// import{useAutoAnimate} from '@formkit/auto-animate/react'
+import{useAutoAnimate} from '@formkit/auto-animate/react'
 
 import { ProductsData } from './ProductData'
 import './contain.css'
 const Filter = () => {
-  // const [parent] = useAutoAnimate()
+  const [parent] = useAutoAnimate()
 
   const [MenuProducts,setMenuProducts]=useState(ProductsData)
    
@@ -22,10 +22,10 @@ const Filter = () => {
           <li onClick={()=> filter ("react")}>REACT</li>
           <li onClick={()=> filter ("wordpress")}>WORDPRESS</li>
         </ul>
-        <div className="list">
+        <div className="list" ref={parent}>
          {
           MenuProducts.map((product, i)=>(
-            <div className="producre">
+            <div className="producre" key={i}>
                <ul>
                <li>
                  <img src={product.img} alt="" />

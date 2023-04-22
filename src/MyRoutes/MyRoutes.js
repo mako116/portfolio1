@@ -8,9 +8,7 @@ const MyRoutes = () => {
     return (
         <Router>
         <Routes>
-              <Route path='/' exact element={<Rome/>}></Route>
-             {/* <Route path='/bloglisted' exact element={<Bloglisted/>}></Route> */}
-             
+              <Route path='/' exact element={<Rome/>}></Route> 
         </Routes>
             
         </Router>

@@ -1,11 +1,16 @@
 import './App.css';
 import MyRoutes from './MyRoutes/MyRoutes';
+import Loader from './Loading/loader';
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <Loader/>
+      <div className="App">
         <MyRoutes />
     </div>
+    </>
+   
   );
 }
 
