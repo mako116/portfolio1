@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 import './Banner.css'
 const Bannner = () => {
   return (
@@ -7,7 +8,7 @@ const Bannner = () => {
 				<div className="wrapper">
 					<h5>Get Started With your project</h5>
 					<h3>I Am Available For Freelancer !</h3>
-					<a href="mailto:nwakwueemmanuel1@gmail.com" className='button'>Hire Me</a>
+					<Link to="/contact" className='button'>Hire Me</Link>
 				</div>
 			</div>
 

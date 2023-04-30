@@ -469,15 +469,6 @@ margin-left: 40px;
 }
 @media(max-width:414px){
  
-    .producre{
-         padding: 10px;
-        left: 0px;
-         margin: auto;        
-    }
-    .menu {
-        display: flex;
-        justify-content: center;
-    }
     .content h3{
          color: white;
          font-size: 20px;
@@ -485,9 +476,7 @@ margin-left: 40px;
 }
 @media(max-width:390px){
 
-    .menu {
-     margin-left: 3px;
-}
+
 .content a {
     width: 5rem;
     margin-top: 30px;
@@ -497,23 +486,16 @@ margin-left: 40px;
     .motionsd{
         margin-left: 0px;
     }
-    .menu {
-       margin-left: 0;
+ .menu{
+    margin-left: 25px;
  }
 .menu li{
-    height: 40px;
-    padding: 10px;
-    border: 1px solid var(--black);    
- margin: 0px;
- margin-left: 0px;
-border-radius: 5px;
-background: #65361B;
-color: #fff;
-font-size: 12px;
+ margin: 10px;
 }
 .producre{
-    margin-left: 5px;
+    margin-left: 35px;
 }
+ 
     .content h3{
      color: #fff;
     }

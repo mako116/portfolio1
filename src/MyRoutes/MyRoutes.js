@@ -1,7 +1,7 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Routes, useNavigate} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Routes  } from 'react-router-dom'
  import Rome from '../pages/Homed';
- 
+  
   
 
 const MyRoutes = () => {
@@ -9,8 +9,7 @@ const MyRoutes = () => {
         <Router>
         <Routes>
               <Route path='/' exact element={<Rome/>}></Route> 
-      
-        </Routes>
+         </Routes>
             
         </Router>
     );

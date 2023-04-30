@@ -1,13 +1,11 @@
 import React from 'react'
 import Ddata from './Cdata'
 import image from '../image/imagi.jpg'
-import {motion} from 'framer-motion'
-import './mainx.css'
+ import './mainx.css'
 import cv from '../component/Chukwuebuka Emmanuel Nwakwue.pdf'
  
 const MyPix = () => {
- const transition = {duration:10, type:"string"}
-  return (
+   return (
     <div>
       {Ddata.map((data, index)=>{
         return(
