@@ -3,9 +3,9 @@ import Portfolio from './portfolio'
 
 const AllPort = () => {
   return (
-    <div>
+    <>
       <Portfolio/>
-    </div>
+    </>
   )
 }
 

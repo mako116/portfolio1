@@ -58,7 +58,7 @@ font-style: normal;
 .producre{
     display: block;
     color: white;
-    font-family: 'montserrat';
+    font-family: 'montserrat',sans-serif;
     position: relative;
      display: inline-block;
      background: rgb(121, 45, 1);
@@ -170,8 +170,6 @@ position: relative;
 }
 
 .producre ul li{
-    /* border: 2px solid goldenrod; */
-    /* padding: 4rem; */
      margin: 10px;
     border-radius: 5%;
 }
@@ -255,15 +253,27 @@ position: relative;
          }
      }
      @media(max-width:768px) {
-   
+     .motionsd{
+         justify-content: center;
+        align-items: center;
+            margin-left: 0px;
+        }
+        .producted{
+            width: 100%;
+             justify-content: center;
+            align-items: center;
+            text-align: center;
+            display: block;
+        }
     .menu {
-        max-width: 90%;
-    gap: 0rem;
+     gap: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin-left: 20px;
+    margin-left: 0px;
         width: 100%;
-    font-weight: bold;
-}
+ }
 .menu li{
     height: 50px;
     padding: 10px;
@@ -282,9 +292,10 @@ color: #fff;
     transition: transform 2s ease 0s; 
     }
     .producre{
+        width: 80%;
          display: flex;
         padding: 0;
-        border-radius: 15px;
+        border-radius: 10px;
          padding-left: 0px;
          background: rgb(121, 45, 1);
     }
@@ -329,33 +340,28 @@ background:#65361B;
 }
 
 @media(max-width:601px){
-    .motionsd{
-        margin-left: 30px;
-        background-color: transparent;
-        text-align: center;
-        margin-bottom: 30px;
-    }
-    .lighten{
-        color: #65361B;
-    }
-    .motionsd h3{
-        font-size: 40px;
-        font-family: 'poppins',sans-serif;
-     }
+ 
     .motionsd p{
         font-size: 11px;
         letter-spacing: 1px;
     }
     .shift{
-        padding: 0px;
-        margin-left: 10px;
-    }
-    .menu {
-        padding: 30px;
-        font-size: 18px;
-    margin-left: 13px;
-}
-    
+          margin-left: 0;
+     }
+     .menu {
+        gap: 0rem;
+ display: block;
+        margin-left: 40px;
+           width: 100%;
+     }
+   .menu li{
+       height: 35px;
+       padding: 10px;
+     margin: 10px;
+    font-size: 15px;
+   border-radius: 5px;
+ 
+   }
     .content h3{
         margin-top: 15px;
         color: #000;
@@ -368,6 +374,18 @@ background:#65361B;
     background:brown;
           ;font-size: 12px;
     }
+    .list {
+        list-style-type: none;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2,3fr);
+     }
+     .producre{
+        display: flex;
+        justify-content: center;
+    align-items: center;
+margin-left: 40px;
+}
 }
 @media(max-width:451px){
     .menu li{
@@ -406,38 +424,24 @@ background:#65361B;
 }
 @media(max-width:425px){
     .motionsd{
-        margin-left: 20px;
+        margin-left: 55px;
     }
     .menu {
-        display: flex;
-        gap: 10px;
-        justify-content: center;
+         gap: 10px;
+         margin-left: 30px;
     }
-.menu li{
-    height: 40px;
-    padding: 5px;
-    border: 1px solid var(--black);    
- margin: 5px;
-border-radius: 5px;
-background: #65361B;
-color: #fff;
-}
+    .producre{
+        padding: 8px;
+    }
 .list {
     width: 100%;
    list-style-type: none;
    display: grid;
    grid-template-columns: repeat(1,1fr);
 }
-.producre{
-    width: 35vh;
-    padding: 10px;
-    left: 65px;
-    margin-left: 30px;
-    margin-right: 10px;
-}
+
 .producre ul li{
-    /* border: 2px solid goldenrod; */
-   object-position: center;
+    object-position: center;
    object-fit: cover;
    padding: 0;
      margin: 0px;
@@ -448,6 +452,10 @@ color: #fff;
     width: 100%;
     height: 100%;
 }
+.content h3 {
+    color: #fff;
+}
+
 .content a {
     width: 5rem;
     margin-top: 45px;
@@ -462,11 +470,9 @@ color: #fff;
 @media(max-width:414px){
  
     .producre{
-        /* width: 25vh; */
-        padding: 10px;
-        left: 5px;
-        margin-left: 20px;
-        margin-right: 10px;
+         padding: 10px;
+        left: 0px;
+         margin: auto;        
     }
     .menu {
         display: flex;
@@ -492,25 +498,21 @@ color: #fff;
         margin-left: 0px;
     }
     .menu {
-             display: flex;
-            gap: 15px;
-            justify-content: center; 
-       padding-right: 3px;
-    margin-left: 20px;
-}
+       margin-left: 0;
+ }
 .menu li{
     height: 40px;
-    padding: 5px;
+    padding: 10px;
     border: 1px solid var(--black);    
  margin: 0px;
  margin-left: 0px;
 border-radius: 5px;
 background: #65361B;
 color: #fff;
-font-size: 15px;
+font-size: 12px;
 }
 .producre{
-margin-left: 30px;
+    margin-left: 5px;
 }
     .content h3{
      color: #fff;
@@ -521,21 +523,7 @@ margin-left: 30px;
           ;font-size: 11px;
     }
 }
+
 @media(max-width:320px){
-    .producre{
-        padding: 5px;
-        margin-left: -20px;
-     }
-     .menu {
-        padding-right: 7px;
-     margin-left: 0px;
- }
- .menu li{
-    height: 33px;
-}
-.producre{
-    left: 37px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
+ 
 }

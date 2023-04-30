@@ -9,6 +9,7 @@ const MyRoutes = () => {
         <Router>
         <Routes>
               <Route path='/' exact element={<Rome/>}></Route> 
+      
         </Routes>
             
         </Router>

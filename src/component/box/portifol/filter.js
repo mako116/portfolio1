@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-// import pix from './image/dredgevest.png'
 import{useAutoAnimate} from '@formkit/auto-animate/react'
 
 import { ProductsData } from './ProductData'

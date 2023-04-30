@@ -58,14 +58,15 @@ background-repeat: no-repeat;
       min-height: 300px;
     }
   }
-
-  @media(max-width:498px){
-    .Banner h3 {
-      font-size: 28px;
-      /* margin: 20px; */
-      line-height: 35px;
+  @media(max-width:541px){
+    .Banner h3 ,
+    .Banner h5 {
+      font-size: 18px;
+       line-height: 35px;
+       letter-spacing: 2px;
     }
   }
+
   @media(max-width:425px){
     .Banner {
       min-height: 250px;

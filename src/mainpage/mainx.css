@@ -198,10 +198,10 @@ box-shadow: none;
 margin-left: 3vh;
 }
 .img img{
-    border: 1px solid #fff;
-    border-radius: 25px;
+     border-radius: 25px;
 padding: 20px;
     width: 500px;
+    background-color: #444;
 }
 .container{
     display: flex;
@@ -267,19 +267,15 @@ padding: 20px;
        margin-bottom: 20px;
      } 
      .img{
-        width: 300px;
-        height: 300px;
-    margin-left: 180px;
-    border-radius: 20px;
-    margin-right: 30px;
-    border: 5px solid #444;
-    
+     border-radius: 20px;
+     border: none;
+    }
+    .img img{
+        width: 350px;
     }
 }
 @media(max-width:649px){
-    .img{
-    margin-left: 150px;
-    }
+   
     .h-text h4{
          font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 1.6rem;
@@ -312,38 +308,37 @@ padding: 20px;
  } 
 
 }
-@media(max-width:583px){
-    .product{
-        width: 100%;
-    min-height: 127vh;
- }
-    .h-text h4{
-        margin-left:0px;
-         /* max-width: 100%; */
-    }
-    .h-text p{
-         line-height: 25px;
-       font-size: 13px;
-       opacity: 0.7;
-       margin-left: -10px;
-       font-weight: 100;
-        margin-right: 0;
-       margin-bottom: 20px;
-     } 
-    .img{
-        width: 250px;
-        height: 250px;
-    margin-left: 150px;
-    }
- 
-}
+
 @media(max-width:541px){
     .img{
-        width: 250px;
-        height: 250px;
-    margin-left: 120px;
-border-radius: 50%;    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+ border-radius: 10px;    
+     overflow: visible;
+
 }
+.img img{
+    margin-left: 40px;
+    margin-right: 0;
+    width: 350px;
+    height: 350px;
+    border-top-right-radius: 80%;
+    border-top-left-radius: 80%;
+ }
+ .h-text p{
+    line-height: 25px;
+  font-size: 17px;
+  letter-spacing: 1.4px;
+  opacity: 0.7;
+  margin-left: 0px;
+  font-weight: 100;
+   margin-right: 0;
+  margin-bottom: 20px;
+} 
 }
 @media(max-width:467px){
     .product{
@@ -373,8 +368,7 @@ border-radius: 50%;
 @media(max-width:425px){
   
     .product{
-        height: 20vh;
-        min-height: 70vh;
+       min-height: 100%;
      }
      
  .h-text{
@@ -427,7 +421,7 @@ border-radius: 50%;
 @media(max-width:375px){
     .product{
         /* background-color:  #341F02; */
-        min-height: 63vh;
+        min-height: 74vh;
      }
     .move button{
         top: 53rem;
