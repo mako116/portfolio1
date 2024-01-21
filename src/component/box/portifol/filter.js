@@ -32,7 +32,7 @@ const Filter = () => {
                   <div className="content">
                     <h3>{product.name}</h3>
                     <a href={product.source}>
-                   View Project
+                   Click
                     </a>
                   </div>
                  </div>
