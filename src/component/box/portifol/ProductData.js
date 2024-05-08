@@ -1,15 +1,15 @@
 import ecomerce from './assets/ecomerce.png'
 import ice from './assets/ice shop.png'
 import mart from './assets/mart.png'
-import mobo from './assets/Betking2.png'
-import Web1 from './assets/Web1.png'
+import mobo from './assets/timzoid.png'
+import Web1 from './assets/fund10.png'
  
 export const ProductsData = [{
-    name: 'Devhires',
-    detail: 'divhire',
+    name: 'Fundo',
+    detail: 'Fund10x',
      img: Web1,
-    type: 'react',
-    source:'https://divehire.netlify.app'
+    type: 'Nextjs',
+    source:'https://fund10x-three.vercel.app/'
 },
  
 {
@@ -21,10 +21,11 @@ export const ProductsData = [{
 
 },
 {
-    name: 'Betwork  building',
-    detail: 'Super html',
+    name: 'timzoid',
+    detail: 'Super react',
      img: mobo,
-    type: 'html',
+    type: 'react',
+    source: "https://timzoid.vercel.app/"
    
 },
 {

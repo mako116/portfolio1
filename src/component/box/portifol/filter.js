@@ -20,7 +20,7 @@ const Filter = () => {
           <li onClick={()=> setMenuProducts(ProductsData)}>All</li>
           <li onClick={()=> filter ("html")}>HTML</li>
           <li onClick={()=> filter ("react")}>REACT</li>
-          <li onClick={()=> filter ("wordpress")}>WORDPRESS</li>
+          <li onClick={()=> filter ("Nextjs")}>Nextjs</li>
         </ul>
         <div className="list">
          {
