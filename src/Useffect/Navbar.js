@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Link } from "react-router-dom" 
+// import { Link } from "react-router-dom" 
 import './navbar.css'
-import cv from '../component/Chukwuebuka Emmanuel Nwakwue.pdf'
+// import cv from '../component/Chukwuebuka Emmanuel Nwakwue.pdf'
    const Navbar = () => {
     const[MobileMenu , setMobileMenu]=useState(false)
 
